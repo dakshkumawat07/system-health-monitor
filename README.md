@@ -16,13 +16,15 @@ The project follows a version-based development approach, with new concepts and 
 
 ## ✨ Features
 
-### Current Features — v1.1
+### Current Features — v1.2
 
 - 🖥️ Display operating system information
 - 🔧 Display system release information
 - 💻 Display machine architecture
 - ⚙️ Display processor information
 - 🧮 Display logical CPU count
+- 🧠 Display total, used, and available memory
+- 📊 Display memory usage percentage
 - 🐍 Display Python version
 - 🐧 Designed for Linux systems
 
@@ -32,11 +34,15 @@ The project follows a version-based development approach, with new concepts and 
 
 ### Python
 
-* Importing modules
-* Using Python's built-in `platform` module
-* Calling module functions
-* Printing formatted output
+- Importing modules
+- Using Python's built-in `platform` module
 - Using Python's built-in `os` module
+- Using the external `psutil` library
+- Calling module functions
+- Storing returned data in variables
+- Converting bytes to gigabytes
+- Rounding numerical values
+- Printing formatted output
 
 ### Linux
 
@@ -58,7 +64,7 @@ The project follows a version-based development approach, with new concepts and 
 | ------- | ----------- | ------------------------------- |
 | v1.0    | ✅ Completed | Basic system information        |
 | v1.1    | ✅ Completed | CPU information                 |
-| v1.2    | 🔜 Planned  | Memory information              |
+| v1.2    | ✅ Completed | Memory information              |
 | v1.3    | 🔜 Planned  | Disk information                |
 | v2.0    | 🔜 Planned  | System resource monitoring      |
 | v2.1    | 🔜 Planned  | System health status            |
@@ -70,7 +76,6 @@ The project follows a version-based development approach, with new concepts and 
 
 ## 🔮 Planned Improvements
 
-* 🧠 Monitor RAM usage
 * 💾 Monitor disk usage
 * 🌐 Display network information
 * ⏱️ Display system uptime
