@@ -21,6 +21,14 @@ print("Memory Total     :", round(memory.total / (1024 ** 3), 2), "GB")
 print("Memory Available :", round(memory.available / (1024 ** 3), 2), "GB")
 print("Memory Used      :", round(memory.used / (1024 ** 3), 2), "GB")
 print("Memory Usage     :", memory.percent, "%")
+
+disk = psutil.disk_usage("/")
+
+print("Disk Total       :", round(disk.total / (1024 ** 3), 2), "GB")
+print("Disk Used        :", round(disk.used / (1024 ** 3), 2), "GB")
+print("Disk Free        :", round(disk.free / (1024 ** 3), 2), "GB")
+print("Disk Usage       :", disk.percent, "%")
+
 print("Python Version   :", platform.python_version())
 
 print()

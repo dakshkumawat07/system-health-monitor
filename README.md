@@ -16,7 +16,7 @@ The project follows a version-based development approach, with new concepts and 
 
 ## ✨ Features
 
-### Current Features — v1.2
+### Current Features — v1.3
 
 - 🖥️ Display operating system information
 - 🔧 Display system release information
@@ -27,6 +27,8 @@ The project follows a version-based development approach, with new concepts and 
 - 📊 Display memory usage percentage
 - 🐍 Display Python version
 - 🐧 Designed for Linux systems
+- 💾 Display total, used, and free disk space
+- 📊 Display disk usage percentage
 
 ---
 
@@ -43,6 +45,8 @@ The project follows a version-based development approach, with new concepts and 
 - Converting bytes to gigabytes
 - Rounding numerical values
 - Printing formatted output
+- Using `psutil.disk_usage()`
+- Working with disk usage data
 
 ### Linux
 
@@ -65,7 +69,7 @@ The project follows a version-based development approach, with new concepts and 
 | v1.0    | ✅ Completed | Basic system information        |
 | v1.1    | ✅ Completed | CPU information                 |
 | v1.2    | ✅ Completed | Memory information              |
-| v1.3    | 🔜 Planned  | Disk information                |
+| v1.3    | ✅ Completed | Disk information                |
 | v2.0    | 🔜 Planned  | System resource monitoring      |
 | v2.1    | 🔜 Planned  | System health status            |
 | v3.0    | 🔜 Planned  | Professional terminal dashboard |
@@ -76,7 +80,6 @@ The project follows a version-based development approach, with new concepts and 
 
 ## 🔮 Planned Improvements
 
-* 💾 Monitor disk usage
 * 🌐 Display network information
 * ⏱️ Display system uptime
 * ❤️ Calculate overall system health
