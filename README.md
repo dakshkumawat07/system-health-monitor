@@ -16,7 +16,7 @@ The project follows a version-based development approach, with new concepts and 
 
 ## ✨ Features
 
-### Current Features — v1.3
+### Current Features — v2.0
 
 - 🖥️ Display operating system information
 - 🔧 Display system release information
@@ -29,6 +29,10 @@ The project follows a version-based development approach, with new concepts and 
 - 🐧 Designed for Linux systems
 - 💾 Display total, used, and free disk space
 - 📊 Display disk usage percentage
+- 📊 Monitor current CPU usage
+- 🧠 Monitor current memory usage
+- 💾 Monitor current disk usage
+- 📈 Display a resource monitoring summary
 
 ---
 
@@ -47,6 +51,10 @@ The project follows a version-based development approach, with new concepts and 
 - Printing formatted output
 - Using `psutil.disk_usage()`
 - Working with disk usage data
+- Monitoring CPU usage with `psutil.cpu_percent()`
+- Using measurement intervals
+- Reusing existing system data
+- Creating a resource monitoring summary 
 
 ### Linux
 
@@ -70,7 +78,7 @@ The project follows a version-based development approach, with new concepts and 
 | v1.1    | ✅ Completed | CPU information                 |
 | v1.2    | ✅ Completed | Memory information              |
 | v1.3    | ✅ Completed | Disk information                |
-| v2.0    | 🔜 Planned  | System resource monitoring      |
+| v2.0    | ✅ Completed | System resource monitoring      |
 | v2.1    | 🔜 Planned  | System health status            |
 | v3.0    | 🔜 Planned  | Professional terminal dashboard |
 | v4.0    | 🔜 Planned  | Monitoring history and logging  |
@@ -80,12 +88,12 @@ The project follows a version-based development approach, with new concepts and 
 
 ## 🔮 Planned Improvements
 
-* 🌐 Display network information
-* ⏱️ Display system uptime
-* ❤️ Calculate overall system health
-* 📈 Create a professional terminal dashboard
-* 📝 Add system monitoring logs
-* 🔄 Add continuous monitoring mode
+- ❤️ Calculate overall system health
+- 🌐 Display network information
+- ⏱️ Display system uptime
+- 📈 Create a professional terminal dashboard
+- 📝 Add system monitoring logs
+- 🔄 Add continuous monitoring mode
 
 ---
 
